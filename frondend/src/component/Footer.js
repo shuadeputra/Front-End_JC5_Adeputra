@@ -84,7 +84,6 @@ class Footer extends Component {
               <ul className="list-unstyled">
                 <li> <Link to="/customerlogin">Login</Link></li>
                 <li> <Link to="/customerlogin">Register</Link></li>
-                <li> <a href="#">Wishlist</a></li>
                 <li> <Link to="/category">Our Products</Link></li>
                 <li> <Link to="/checkout1">Checkouts</Link></li>
               </ul>

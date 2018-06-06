@@ -35,9 +35,9 @@ class Navbar extends Component {
 {/* <!-- Awal navbar --> */}
       <div className="navbar navbar-expand-sm navbar-light bg-light">
           <div className="container">
-              <a className="navbar-brand home" href={"index.html"}>
+              <Link className="navbar-brand home" to="/">
                   <img src={"img/burunglogo.png"}/>
-              </a>
+              </Link>
               <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
               <span className="navbar-toggler-icon"></span></button>
 
