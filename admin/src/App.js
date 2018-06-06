@@ -23,7 +23,7 @@ class App extends Component {
 
     return (
       <div> 
-      <Route path="/loginadmin" component={Loginadmin}/>  
+      <Route exact path="/" component={Loginadmin}/>  
       <Route path="/homeadmin" component={Homeadmin}/> 
       <Route path="/productall" component={Productall}/> 
       <Route path="/addproduct" component={Addproduct}/> 
